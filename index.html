@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day 15/100 - Color Gen | Vartul</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div class="container">
+        <h1>🎨 Random Color</h1>
+        <p class="day">Day 15/100 - Dubai 15% 🇦🇪</p>
+        
+        <div class="color-box" id="colorBox"></div>
+        
+        <div class="codes">
+            <div class="code-item">
+                <span>HEX:</span>
+                <strong id="hexCode">#667EEA</strong>
+                <button onclick="copyHex()">Copy</button>
+            </div>
+            <div class="code-item">
+                <span>RGB:</span>
+                <strong id="rgbCode">rgb(102, 126, 234)</strong>
+                <button onclick="copyRgb()">Copy</button>
+            </div>
+        </div>
+
+        <button class="generate" onclick="generateColor()">Generate Color</button>
+        <p id="copyMsg"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
